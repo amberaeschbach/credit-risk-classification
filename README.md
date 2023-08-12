@@ -24,4 +24,4 @@ The rebalanced data served as the foundation for constructing a new logistic reg
 
 ## Summary
 
-Neither model scores above 90% precision for determining the likelihood of high-risk loans. However, Logistic Regression Model 2 had fewer false predictions than model 1, so I would be more likely to recommend Logistic Regression Model 2. 
+Neither model scores above 90% precision for determining the likelihood of high-risk loans. However, Logistic Regression Model 2 had fewer false predictions than model 1, so I would be more likely to recommend Logistic Regression Model 2. Both are still highly accurate, but in a high stakes situation like a large loan, I'm not sure if I would recommend either of these models. If a client really wanted to accurately predict high-risk loan liability, I don't believe 84-85% would be high enough to risk losing a large amount of money. I would say that performance does depend on the problem we are trying to solve, because some problems have different levels of risks. 
