@@ -3,7 +3,7 @@ The purpose of this analysis was to discover if there is a machine learning tech
 
 ## Overview of the Analysis
 
-The dataset was divided into two portions: training and testing sets. The initial task involved creating a logistic regression model using the training set. Then, this regression model was employed on the testing dataset to determine whether loans extended to borrowers in that set carried low or high risk. The summarized findings are provided below.
+The dataset was divided into two portions: training and testing sets. The initial task involved creating a logistic regression model using the training set. Then, this regression model was used on the testing dataset to determine whether loans extended to borrowers in that set carried low or high risk. 
 
 The initial model was developed using a dataset that contained 75,036 reports of low-risk loans and 2,500 reports of high-risk loans. To ensure equitable representation, the training set data was rebalanced using the RandomOverSampler module from the imbalanced-learn library. This process resulted in an equal count of 56,277 data points for both low-risk (0) and high-risk (1) loans, preserving the original dataset's characteristics.
 
