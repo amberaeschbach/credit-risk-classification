@@ -11,14 +11,14 @@ The rebalanced data served as the foundation for constructing a new logistic reg
 Results
 Logistic Regression Model 1:
 
-Precision: 100% for low-risk loans, 85% for high-risk loans, 93% on average
-Accuracy: 92%
-Recall: 99% for low-risk loans, 91% for high-risk loans, 95% on average
+*Precision: 100% for low-risk loans, 85% for high-risk loans, 93% on average
+*Accuracy: 92%
+*Recall: 99% for low-risk loans, 91% for high-risk loans, 95% on average
 Logistic Regression Model 2:
 
-Precision: 100% for low-risk loans, 84% for high-risk loans, 92% on average
-Accuracy: 92%
-Recall: 99%
+*Precision: 100% for low-risk loans, 84% for high-risk loans, 92% on average
+*Accuracy: 92%
+*Recall: 99%
 Summary
 
 Neither model scores above 90% precision for determining the likelihood of high-risk loans. However, Logistic Regression Model 2 had fewer false predictions than model 1, so I would be more likely to recommend Logistic Regression Model 2. 
